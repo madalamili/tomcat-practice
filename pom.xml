@@ -12,7 +12,16 @@
 	<name></name>
 	<description></description>
 	<url></url>
+	<plugin>
+   	 ...
+    	<artifactId>maven-javadoc-plugin</artifactId>
+   	 <configuration>
+      		<javadocExecutable>${java.home}/../bin/javadoc</javadocExecutable>
+    	</configuration>
+  	  ...
+	</plugin>
 
+	
 	<parent>
 		<groupId>br.gov.frameworkdemoiselle.component</groupId>
 		<artifactId>demoiselle-vaadin-parent</artifactId>
