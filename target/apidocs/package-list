@@ -1,0 +1,7 @@
+folder_practice.business
+folder_practice.domain
+folder_practice.persistence
+folder_practice.ui
+folder_practice.ui.presenter
+folder_practice.ui.view
+folder_practice.ui.view.form
